@@ -6,11 +6,11 @@ h2 {
 }
 
 h3, h4 {
-	text-align: center;
+	font-family: 'Montserrat', sans-serif;
 }
 
 .section-title {
-	margin-top: 50px;
+	margin: 25px 0px;
 	text-align: center;
 }
 
@@ -99,28 +99,31 @@ button {
 
 /* PARTNER WITH US */
 
-#howitworks-body {
+#partners-body {
 	display: inline-flex;
-}
-
-
-.card-box {
-	display: flex;
-	justify-content: center;
-}
-
-.card {
-	padding: 25px 25px;
-	width: 25%;
-	height: auto;
-	margin: 50px 50px;
+	margin-top: 5px;
 }
 
 #providers-list {
 	display: block;
+	justify-content: left;
 }
 
-#providers-list > div > ul {
+#providers-list > ul {
 	margin: 25px 0px;
 	list-style: none;
 }
+
+.card-box {
+	display: inline-flex;
+	margin-top: 25px;
+}
+
+.card {
+	padding: 25px 25px;
+	width: 450px;
+	height: auto;
+	margin-right: 10px;
+	box-shadow: 0 4px 4px 0 #9c9c9c;
+}
+
