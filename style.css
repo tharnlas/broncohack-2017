@@ -72,7 +72,6 @@ button {
 }
 
 .about-name {
-	font-family: 'Cutive Mono', sans-serif;
 	font-size: 18px;
 	font-weight: bold;
 	text-align: center;
@@ -83,7 +82,6 @@ button {
 }
 
 .about-title {
-	font-family: 'Cutive Mono', sans-serif;
 	font-size: 14px;
 	font-weight: bold;
 	text-align: center;
